@@ -58,7 +58,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <!-- Testing -->
-    <includedTestGroups />
+    <includedTestGroups/>
     <excludedTestGroups>Integration,Acceptance,Live,WIP</excludedTestGroups>
     <surefire.failIfNoSpecifiedTests>false</surefire.failIfNoSpecifiedTests>
     <surefire.version>2.19.1</surefire.version>
@@ -73,7 +73,7 @@
     <httpcomponents.httpasyncclient.version>4.1.4</httpcomponents.httpasyncclient.version>
     <httpcomponents.httpclient.version>4.5.13</httpcomponents.httpclient.version>
     <commons-io.version>2.11.0</commons-io.version>
-    <xmlunit.version>2.3.0</xmlunit.version>
+    <xmlunit.version>2.10.0</xmlunit.version>
   </properties>
 
   <modules>
@@ -276,7 +276,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -289,7 +289,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -302,7 +302,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -315,7 +315,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -329,7 +329,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -342,7 +342,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -355,7 +355,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -430,7 +430,7 @@
               <author>false</author>
               <quiet>true</quiet>
               <aggregate>false</aggregate>
-              <detectLinks />
+              <detectLinks/>
               <tags>
                 <tag>
                   <name>todo</name>
@@ -519,7 +519,7 @@
                 </goals>
                 <configuration>
                   <forceCreation>true</forceCreation>
-                  <archive combine.self="override" />
+                  <archive combine.self="override"/>
                 </configuration>
               </execution>
             </executions>
